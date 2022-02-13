@@ -8,7 +8,7 @@ body {
     font-size: 16px; 
     line-height: 32px;
     font-family:Ubuntu,sans-serif;
-    color:#0c0c0c;
+    color:#f8f8f8;
 }
 
 h1 {
@@ -20,25 +20,29 @@ h1 {
 h2 {
     font-size: 1.5rem;
     text-align: center;
-    border-bottom: 2px solid rgb(17, 14, 14);
+    border-bottom: 2px solid rgb(255, 250, 250);
 }
 
 header, main, footer {
+    font-family:cursive;
+    background-color:#0e0b0bcc;
     margin: 1.25rem auto;
     padding: .5rem;
     max-width: 600px;
 }
 
 header, footer, footer a {
+
     text-align: center;
-    background-color:#f00c0c;
-    color: rgb(0, 0, 0);
+    background-color:#0c6ff0;
+    color: rgb(248, 247, 247);
 }
 
 header img {
-    width: 175px;
+    width: 180px;
     height: auto;
     float: right;
+    border: #070607 solid 10px;
 }
 
 footer {
