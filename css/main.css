@@ -8,18 +8,19 @@ body {
     font-size: 16px; 
     line-height: 32px;
     font-family:Ubuntu,sans-serif;
-    color:#0b0c0b;
+    color:#0c0c0c;
 }
 
 h1 {
+    font-family:fantasy;
     font-size: 2rem;
-    color:#321236;
+    color:#070607;
 }
 
 h2 {
     font-size: 1.5rem;
     text-align: center;
-    border-bottom: 2px solid #bbb;
+    border-bottom: 2px solid rgb(17, 14, 14);
 }
 
 header, main, footer {
@@ -30,12 +31,12 @@ header, main, footer {
 
 header, footer, footer a {
     text-align: center;
-    background-color:#8A6694;
-    color: whitesmoke;
+    background-color:#f00c0c;
+    color: rgb(0, 0, 0);
 }
 
 header img {
-    width: 150px;
+    width: 175px;
     height: auto;
     float: right;
 }
