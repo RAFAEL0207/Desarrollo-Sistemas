@@ -2,28 +2,27 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<p id="n"></p>
 	<title>Ejercicio2</title>
-
-	<script type="text/javascript">
-
-		function factorial () 
-		{
-			let n= new Date();
-			var total = 1; 
-			for (i=1; i<=n; i++) {
-				total = total * i; 
-			}
-			return total; 
-		}	
-				
-				</script>
+	<link rel="stylesheet" href="main.css">
+	<script src="ejercicios.js"></script>
 </head>
 <body>
 
-	<input type="button"
-	value="PRESIONA PARA VER LA FECHA  ACTUAL"
-	onclick="factorial()"/>
+    <div class="contenedor2">
+    
+        
+            
+		<form  action="">
+			<p>Ingrese un número</p>
+			<input type="text"  id='nume1' placeholder="Ingrese un número válido">
+			 
+			<br>                                                             
+			<input class = 'btn' type="button" value='Haga clic para obtener el factorial' onclick="factorial()">
+			<br>
+			<label id="texto"></label>   
+		</form>                             
+	
+</div>
 </body>
 
 </html>
